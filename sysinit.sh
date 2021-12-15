@@ -2,6 +2,8 @@
 # Init 
 
 defaults write com.apple.Finder AppleShowAllFiles true
+git config --global pull.rebase false
+git config --global fetch.prune true
 
 #     Terminal functions    #
 #############################

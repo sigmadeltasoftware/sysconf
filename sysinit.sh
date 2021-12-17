@@ -11,7 +11,15 @@ function refresh() {
   source ~/.zshrc
 }
 
-#       Git Functions      #
+#      Dev Functions      # 
+###########################
+
+function dderiv() {
+  rm -rf ~/Library/Developer/Xcode/DerivedData
+  echo "Removed Xcode cache in ~/Library/Developer/Xcode/DerivedData"
+}
+
+#      Git Functions      #
 ############################
 
 function gstat() {
